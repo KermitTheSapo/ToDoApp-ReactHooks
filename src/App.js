@@ -1,11 +1,9 @@
-import React, {useState} from "react"
-
+import React from "react"
+import ToDo from "./components/todo"
 export default function App() {
-  const [nome, setNome] = useState("ToDo")
-
   return(
     <div>
-      <h1>{nome}</h1>
+      <ToDo/>
     </div>
   )
 }
